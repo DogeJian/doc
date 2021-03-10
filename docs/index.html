@@ -8,7 +8,9 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="shortcut icon" href="../favicon.ico" />
+  <link rel="icon" href="//cdn.jsdelivr.net/gh/dogejian/dogejian.github.io/doc/images/favicon.png" />
+  <!-- https://dogejian.github.io/doc/#/ -->
+  <!-- <link rel="icon" href="//cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/avatar.jpg"> -->
 </head>
 
 <body>
@@ -20,8 +22,14 @@
       repo: 'https://github.com/DogeJian/doc',
       coverpage: true,
       loadSidebar: true,
+      loadNavbar: true,
       subMaxLevel: 2,
-      search: 'auto'
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: '😞 No Results! ',
+        depth: 6
+      }
     }
   </script>
   <!-- Docsify v4 -->
