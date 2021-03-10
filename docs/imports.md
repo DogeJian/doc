@@ -1,6 +1,4 @@
-## 常用引入
-
-> #### 拼音搜索
+## 拼音搜索
 
 ```js
 import PinyinMatch from 'pinyin-match'

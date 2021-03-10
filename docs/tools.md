@@ -1,6 +1,5 @@
-## 工具函数
 
-> #### 获取字典
+## 获取字典
 
 ```js
     getDictionary (data, key, value) {
@@ -12,8 +11,7 @@
       return result
     }
 ```
-
-> #### groupBy
+## groupBy
 
 ```js
   groupBy (data, params) {

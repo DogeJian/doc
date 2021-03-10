@@ -8,4 +8,4 @@
 
 
 [GitHub](https://github.com/DogeJian/doc)
-[Get Started](工具函数.md)
+[Get Started](tools.md)
