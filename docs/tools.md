@@ -24,3 +24,11 @@
       return groups
     }
 ```
+
+## 数组去重
+
+```js
+  unique (arr) {
+      return Array.from(new Set(arr))
+}
+```
